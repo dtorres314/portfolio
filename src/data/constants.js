@@ -9,6 +9,8 @@ import CoffeecupLogo from '../images/coffeecup.jpg';
 import syberryLogo from '../images/syberryLogo.jpg';
 import itransitionLogo from '../images/iTransitionLogo.jpg';
 import schoolLogo from '../images/school.png';
+import nermobauLogo from '../images/projects/nermobau.png';
+import wareTrackerLogo from '../images/projects/waretracker.png';
 export const Bio = {
   name: "Daniel Torres",
   roles: [
@@ -396,7 +398,7 @@ export const projects = [
     description:
       "A website which helps other companies with Trucks and lorries",
     image:
-      `${VervoeImg}`,
+      `${nermobauLogo}`,
     tags: [
       "DirectoriesPro",
       "Avada", 
@@ -414,7 +416,7 @@ export const projects = [
     description:
       "WareTracker is a web site specialized for CMS including WordPress themes ",
     image:
-    `${Nota20Img}`,
+    `${wareTrackerLogo}`,
     tags: [
       "Docker",
       "CI/CD",
