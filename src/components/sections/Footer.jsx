@@ -87,7 +87,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>James Henry</Logo>
+        <Logo>Daniel Torres</Logo>
         <Nav>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
@@ -106,7 +106,7 @@ const Footer = () => {
             <GithubIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 James Henry. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Daniel Torres. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
