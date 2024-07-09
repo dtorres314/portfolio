@@ -248,18 +248,14 @@ const Hero = () => {
               <motion.div {...headContentAnimation}>
                 <SubTitle>{Bio.description}</SubTitle>
               </motion.div>
-
-              <ResumeButton href={Bio.resume} target="_blank">
-                Check Resume
-              </ResumeButton>
             </HeroLeftContainer>
-            <HeroRightContainer>
+            {/* <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Daniel Torres" />
+
                 </Tilt>
               </motion.div>
-            </HeroRightContainer>
+            </HeroRightContainer> */}
           </HeroInnerContainer>
         </motion.div>
       </HeroContainer>

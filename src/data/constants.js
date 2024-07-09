@@ -11,9 +11,13 @@ import itransitionLogo from '../images/iTransitionLogo.jpg';
 import schoolLogo from '../images/school.png';
 import nermobauLogo from '../images/projects/nermobau.png';
 import wareTrackerLogo from '../images/projects/waretracker.png';
+import splashpadLogo from '../images/projects/splashpad.png';
+import stickmobilityLogo from '../images/projects/stickmobility.png';
+import aromaLogo from '../images/projects/aroma.png';
 export const Bio = {
   name: "Daniel Torres",
   roles: [
+    "Shopify Developer",
     "Full Stack Developer",
     "Android Developer",
     "UI/UX Designer",
@@ -22,9 +26,6 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/trustme000777",
-  resume:
-    "https://docs.google.com/document/d/1FI8Cxv1UzN_X2mZmx3sDCie2_0Vfu15QGoQ4FAusSDg/",
-  linkedin: "https://www.linkedin.com/in/",
 };
 
 export const skills = [
@@ -88,6 +89,10 @@ export const skills = [
   {
     title: "Backend",
     skills: [
+      {
+        name: "Shopify",
+        image: "https://img.icons8.com/?size=80&id=rhNJ4aVAWrpL&format=png"
+      },
       {
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
@@ -287,114 +292,175 @@ export const skills = [
   },
 ];
 
-export const experiences = [
-  {
-    id: 0,
-    img: `${itransitionLogo}`,
-    role: "Senior Software Engineer",
-    company: "iTransition",
-    date: "Sep 2019 - Apr 2024",
-    desc: "",
-    skills: [
-      "ReactJS",
-      "Angular JS",
-      "Vue JS",
-      "Redux",
-      "JavaScript",
-      "TypeScript",
-      "NodeJs",
-      "Python",
-      "Django",
-      "Flask",
-      "Fast API",
-      "Java",
-      "Spring Boot",
-      "Hibernate",
-      "Go",
-      "Gin gonic",
-      "Go Fiber",
-      "Nginx",
-      "Material UI",
-      "Docker",
-      "Kubernete",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Lambda",
-      "Elastic Beanstalk",
-      "IAM",
-      "DynamoDB",
-      "S3",
-      "Portainer",
-      "MicroService"
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
-  },
-  {
-    id: 1,
-    img: `${syberryLogo}`,
-    role: "Junior Software Engineer",
-    company: "Syberry corporation",
-    date: "June 2015 - Aug 2019",
-    desc: "",
-    skills: [
-      "ReactJS",
-      "Angular JS",
-      "Vue JS",
-      "Redux",
-      "JavaScript",
-      "TypeScript",
-      "NodeJs",
-      "Express JS",
-      "Nginx",
-      "Material UI",
-      "Docker",
-      "Kubernete",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "S3",
-      "Portainer",
-      "MicroService"
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
-  },
-  {
-    id: 2,
-    img: `${CoffeecupLogo}`,
-    role: "Software Developer",
-    company: "Coffeecup Software",
-    date: "June 2014 - May 2015",
-    desc: "",
-    skills: [
-      "HTML5",
-      "CSS3",
-      "Bootstrap",
-      "WCAG",
-      "Laravel",
-      "Photoshop",
-      "Sketch",
-      "MySQL"
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-  }
-];
-export const education = [
-  {
-    id: 0,
-    img: `${schoolLogo}`,
-    school: "University of North Texas",
-    date: "Sep 2010 - May 2014",
-    grade: "3.6 GPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering.",
-    degree: "Bachelor of Science - Computer Science",
-  },
-];
+// export const experiences = [
+//   {
+//     id: 0,
+//     img: `${itransitionLogo}`,
+//     role: "Senior Software Engineer",
+//     company: "iTransition",
+//     date: "Sep 2019 - Apr 2024",
+//     desc: "",
+//     skills: [
+//       "ReactJS",
+//       "Angular JS",
+//       "Vue JS",
+//       "Redux",
+//       "JavaScript",
+//       "TypeScript",
+//       "NodeJs",
+//       "Python",
+//       "Django",
+//       "Flask",
+//       "Fast API",
+//       "Java",
+//       "Spring Boot",
+//       "Hibernate",
+//       "Go",
+//       "Gin gonic",
+//       "Go Fiber",
+//       "Nginx",
+//       "Material UI",
+//       "Docker",
+//       "Kubernete",
+//       "Terraform",
+//       "AWS",
+//       "EC2",
+//       "Lambda",
+//       "Elastic Beanstalk",
+//       "IAM",
+//       "DynamoDB",
+//       "S3",
+//       "Portainer",
+//       "MicroService"
+//     ],
+//     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
+//   },
+//   {
+//     id: 1,
+//     img: `${syberryLogo}`,
+//     role: "Junior Software Engineer",
+//     company: "Syberry corporation",
+//     date: "June 2015 - Aug 2019",
+//     desc: "",
+//     skills: [
+//       "ReactJS",
+//       "Angular JS",
+//       "Vue JS",
+//       "Redux",
+//       "JavaScript",
+//       "TypeScript",
+//       "NodeJs",
+//       "Express JS",
+//       "Nginx",
+//       "Material UI",
+//       "Docker",
+//       "Kubernete",
+//       "Terraform",
+//       "AWS",
+//       "EC2",
+//       "S3",
+//       "Portainer",
+//       "MicroService"
+//     ],
+//     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
+//   },
+//   {
+//     id: 2,
+//     img: `${CoffeecupLogo}`,
+//     role: "Software Developer",
+//     company: "Coffeecup Software",
+//     date: "June 2014 - May 2015",
+//     desc: "",
+//     skills: [
+//       "HTML5",
+//       "CSS3",
+//       "Bootstrap",
+//       "WCAG",
+//       "Laravel",
+//       "Photoshop",
+//       "Sketch",
+//       "MySQL"
+//     ],
+//     doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+//   }
+// ];
+// export const education = [
+//   {
+//     id: 0,
+//     img: `${schoolLogo}`,
+//     school: "University of North Texas",
+//     date: "Sep 2010 - May 2014",
+//     grade: "3.6 GPA",
+//     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering.",
+//     degree: "Bachelor of Science - Computer Science",
+//   },
+// ];
 export const projects = [
+  {
+    id:12,
+    title: "Splashpad",
+    date: "Apr 2023 - May 2023",
+    description: 
+      "A website offers best things that anyone never knew.",
+    image:
+      `${splashpadLogo}`,
+      tags: [
+        "shopify",
+        "react",
+        "PhotoSwipe",
+        "OpenGraph",
+        "Google Analytics",
+        "Venmo",
+        "PayPal",
+        "Flickity"
+      ],
+      category: "shopify",
+      webapp: "https://splashpadshop.com/"
+  },
+  {
+    id:13,
+    title: "Stick mobility",
+    date: "Oct 2022 - Feb 2023",
+    description: 
+      "A website offers users training to achieve positions and ranges that wouldn't normally be able to reach.",
+    image:
+      `${stickmobilityLogo}`,
+      tags: [
+        "shopify",
+        "react",
+        "jQueryCDN",
+        "cloudFlare",
+        "PhotoSwipe",
+        "OpenGraph",
+        "Google Analytics",
+        "Venmo",
+        "PayPal",
+        "Flickity"
+      ],
+      category: "shopify",
+      webapp: "https://stickmobility.com/"
+  },
+  {
+    id:13,
+    title: "aroma360",
+    date: "Sep 2020 - Jan 2021",
+    description: 
+      "A website made of shopify, react and vue that offers best products for the customers",
+    image:
+      `${aromaLogo}`,
+      tags: [
+        "shopify",
+        "react",
+        "Vue",
+      ],
+      category: "shopify",
+      webapp: "https://aroma360.com/"
+  },
+
   {
     id: 11,
     title: "NERMOBAU",
-    date: "Apr 2023 - June 2023",
+    date: "Jun 2023 - Sep 2023",
     description:
       "A website which helps other companies with Trucks and lorries",
     image:

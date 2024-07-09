@@ -1,9 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Bio } from "../../data/constants";
-import GithubIcon from "@mui/icons-material/GitHub"
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import InstagramIcon from "@mui/icons-material/Instagram";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -25,11 +21,6 @@ const FooterWrapper = styled.div`
   color: ${({ theme }) => theme.text_primary};
 `;
 
-const Logo = styled.div`
-  font-weight: 600;
-  font-size: 20px;
-  color: ${({ theme }) => theme.primary};
-`;
 
 const Nav = styled.nav`
   width: 100%;
@@ -61,52 +52,17 @@ const NavLink = styled.a`
   }
 `;
 
-const SocialMediaIcons = styled.div`
-  display: flex;
-  margin-top: 1rem;
-`;
-const SocialMediaIcon = styled.a`
-  display: inline-block;
-  margin: 0 1rem;
-  font-size: 1.5rem;
-  color: ${({ theme }) => theme.text_primary};
-  transition: color 0.2s ease-in-out;
-  &:hover {
-    color: ${({ theme }) => theme.primary};
-  }
-`;
 
-const Copyright = styled.p`
-  margin-top: 1.5rem;
-  font-size: 0.9rem;
-  color: ${({ theme }) => theme.soft2};
-  text-align: center;
-`;
 
 const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Daniel Torres</Logo>
         <Nav>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
-          <NavLink href="#Experience">Experience</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
-          <NavLink href="#Education">Education</NavLink>
         </Nav>
-        <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.linkedin} target="display">
-            <LinkedInIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
-            <InstagramIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.github} target="display">
-            <GithubIcon />
-          </SocialMediaIcon>
-        </SocialMediaIcons>
-        <Copyright>&copy; 2024 Daniel Torres. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

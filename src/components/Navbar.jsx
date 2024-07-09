@@ -151,9 +151,7 @@ const Navbar = () => {
         <NavItems>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
-          <NavLink href="#Experience">Experience</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
-          <NavLink href="#Education">Education</NavLink>
         </NavItems>
 
         {isOpen && (
@@ -164,16 +162,10 @@ const Navbar = () => {
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Skills">
               Skills
             </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Experience">
-              Experience
-            </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
               Projects
             </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
-              Education
-            </NavLink>
-            <GithubButton
+            {/* <GithubButton
               href={Bio.github}
               target="_Blank"
               style={{
@@ -182,15 +174,15 @@ const Navbar = () => {
               }}
             >
               Github Profile
-            </GithubButton>
+            </GithubButton> */}
           </MobileMenu>
         )}
 
-        <ButtonContainer>
+        {/* <ButtonContainer>
           <GithubButton href={Bio.github} target="_Blank">
             Github Profile
           </GithubButton>
-        </ButtonContainer>
+        </ButtonContainer> */}
       </NavbarContainer>
     </Nav>
   );
