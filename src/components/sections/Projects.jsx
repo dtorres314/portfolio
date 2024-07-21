@@ -123,6 +123,13 @@ const Projects = ({ openModal, setOpenModal }) => {
           </ToggleButton>
           <Divider />
           <ToggleButton
+            active={toggle === "wordpress"}
+            onClick={() => setToggle("WordPress")}
+          >
+            WordPress
+          </ToggleButton>
+          <Divider />
+          <ToggleButton
             active={toggle === "web app"}
             onClick={() => setToggle("web app")}
           >

@@ -1,19 +1,20 @@
-import VervoeImg from '../images/projects/vervoe.png';
-import GetlabsImg from '../images/projects/getlabs.png';
-import JustteetimesImg from '../images/projects/justteetimes.png';
-import Nota20Img from '../images/projects/nota20.png';
-import ScooterettiImg from '../images/projects/scooteretti.png';
-import TableauImg from '../images/projects/tableau.png';
-import WijndoekjeImg from '../images/projects/wijndoekje.png';
-import CoffeecupLogo from '../images/coffeecup.jpg';
-import syberryLogo from '../images/syberryLogo.jpg';
-import itransitionLogo from '../images/iTransitionLogo.jpg';
-import schoolLogo from '../images/school.png';
-import nermobauLogo from '../images/projects/nermobau.png';
-import wareTrackerLogo from '../images/projects/waretracker.png';
-import splashpadLogo from '../images/projects/splashpad.png';
-import stickmobilityLogo from '../images/projects/stickmobility.png';
-import aromaLogo from '../images/projects/aroma.png';
+import VervoeImg from "../images/projects/vervoe.png";
+import GetlabsImg from "../images/projects/getlabs.png";
+import JustteetimesImg from "../images/projects/justteetimes.png";
+import Nota20Img from "../images/projects/nota20.png";
+import ScooterettiImg from "../images/projects/scooteretti.png";
+import TableauImg from "../images/projects/tableau.png";
+import WijndoekjeImg from "../images/projects/wijndoekje.png";
+import CoffeecupLogo from "../images/coffeecup.jpg";
+import syberryLogo from "../images/syberryLogo.jpg";
+import itransitionLogo from "../images/iTransitionLogo.jpg";
+import schoolLogo from "../images/school.png";
+import k9battlebedsLogo from "../images/projects/k9battlebeds.png";
+import nermobauLogo from "../images/projects/nermobau.png";
+import wareTrackerLogo from "../images/projects/waretracker.png";
+import splashpadLogo from "../images/projects/splashpad.png";
+import stickmobilityLogo from "../images/projects/stickmobility.png";
+import aromaLogo from "../images/projects/aroma.png";
 export const Bio = {
   name: "Daniel Torres",
   roles: [
@@ -54,11 +55,12 @@ export const skills = [
       },
       {
         name: "Vue Js",
-        image: "https://cdn-icons-png.flaticon.com/128/15484/15484278.png"
+        image: "https://cdn-icons-png.flaticon.com/128/15484/15484278.png",
       },
       {
         name: "Svelte",
-        image: "https://image.shutterstock.com/image-vector/svelte-framework-vector-emblem-stylized-260nw-1764554288.jpg"
+        image:
+          "https://image.shutterstock.com/image-vector/svelte-framework-vector-emblem-stylized-260nw-1764554288.jpg",
       },
       {
         name: "HTML",
@@ -89,10 +91,6 @@ export const skills = [
   {
     title: "Backend",
     skills: [
-      {
-        name: "Shopify",
-        image: "https://img.icons8.com/?size=80&id=rhNJ4aVAWrpL&format=png"
-      },
       {
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
@@ -215,38 +213,67 @@ export const skills = [
       },
     ],
   },
+  // {
+  //   title: "Machine Learning",
+  //   skills: [
+  //     {
+  //       name: "Python",
+  //       image:
+  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+  //     },
+  //     {
+  //       name: "Tenserflow",
+  //       image:
+  //         "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
+  //     },
+  //     {
+  //       name: "Keras",
+  //       image:
+  //         "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
+  //     },
+  //     {
+  //       name: "Jupyter",
+  //       image:
+  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
+  //     },
+  //     {
+  //       name: "Google Colab",
+  //       image:
+  //         "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
+  //     },
+  //     {
+  //       name: "Sk Learn Kit",
+  //       image:
+  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
+  //     },
+  //   ],
+  // },
   {
-    title: "Machine Learning",
+    title: "CMS",
     skills: [
       {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+        name: "Shopify",
+        image: "https://img.icons8.com/?size=80&id=rhNJ4aVAWrpL&format=png",
       },
       {
-        name: "Tenserflow",
+        name: "Wordpress",
         image:
-          "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNgx6zm3ZGD5xn_njujFB7jn_wbGpB0qa8hA&s",
       },
       {
-        name: "Keras",
+        name: "webflow",
         image:
-          "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
+          "https://img.icons8.com/?size=100&id=ktrJ12qa5f65&format=png&color=000000",
       },
       {
-        name: "Jupyter",
+        name: "strapi",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
+          "https://static-00.iconduck.com/assets.00/strapi-icon-512x505-3hl7a1v3.png",
       },
       {
-        name: "Google Colab",
+        name: "yoast",
         image:
-          "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
-      },
-      {
-        name: "Sk Learn Kit",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPcHGdK5GGIVcYQz8u9dYtPxYyp9qU3Wy3Ow&s",
       },
     ],
   },
@@ -397,64 +424,56 @@ export const skills = [
 // ];
 export const projects = [
   {
-    id:12,
+    id: 12,
     title: "Splashpad",
     date: "Apr 2023 - May 2023",
-    description: 
-      "A website offers best things that anyone never knew.",
-    image:
-      `${splashpadLogo}`,
-      tags: [
-        "shopify",
-        "react",
-        "PhotoSwipe",
-        "OpenGraph",
-        "Google Analytics",
-        "Venmo",
-        "PayPal",
-        "Flickity"
-      ],
-      category: "shopify",
-      webapp: "https://splashpadshop.com/"
+    description: "A website offers best things that anyone never knew.",
+    image: `${splashpadLogo}`,
+    tags: [
+      "shopify",
+      "react",
+      "PhotoSwipe",
+      "OpenGraph",
+      "Google Analytics",
+      "Venmo",
+      "PayPal",
+      "Flickity",
+    ],
+    category: "shopify",
+    webapp: "https://splashpadshop.com/",
   },
   {
-    id:13,
+    id: 13,
     title: "Stick mobility",
     date: "Oct 2022 - Feb 2023",
-    description: 
+    description:
       "A website offers users training to achieve positions and ranges that wouldn't normally be able to reach.",
-    image:
-      `${stickmobilityLogo}`,
-      tags: [
-        "shopify",
-        "react",
-        "jQueryCDN",
-        "cloudFlare",
-        "PhotoSwipe",
-        "OpenGraph",
-        "Google Analytics",
-        "Venmo",
-        "PayPal",
-        "Flickity"
-      ],
-      category: "shopify",
-      webapp: "https://stickmobility.com/"
+    image: `${stickmobilityLogo}`,
+    tags: [
+      "shopify",
+      "react",
+      "jQueryCDN",
+      "cloudFlare",
+      "PhotoSwipe",
+      "OpenGraph",
+      "Google Analytics",
+      "Venmo",
+      "PayPal",
+      "Flickity",
+    ],
+    category: "shopify",
+    webapp: "https://stickmobility.com/",
   },
   {
-    id:13,
+    id: 16,
     title: "aroma360",
     date: "Sep 2020 - Jan 2021",
-    description: 
+    description:
       "A website made of shopify, react and vue that offers best products for the customers",
-    image:
-      `${aromaLogo}`,
-      tags: [
-        "shopify",
-        "react",
-        "Vue",
-      ],
-      category: "shopify",
-      webapp: "https://aroma360.com/"
+    image: `${aromaLogo}`,
+    tags: ["shopify", "react", "Vue"],
+    category: "shopify",
+    webapp: "https://aroma360.com/",
   },
 
   {
@@ -463,17 +482,21 @@ export const projects = [
     date: "Jun 2023 - Sep 2023",
     description:
       "A website which helps other companies with Trucks and lorries",
-    image:
-      `${nermobauLogo}`,
-    tags: [
-      "DirectoriesPro",
-      "Avada", 
-      "WordPress",
-      "Firebase", 
-      "GCP"
-    ],
-    category: "web app",
+    image: `${nermobauLogo}`,
+    tags: ["DirectoriesPro", "Avada", "WordPress", "Firebase", "GCP"],
+    category: "WordPress",
     webapp: "https://nermobau-gmbh.de/",
+  },
+  {
+    id: 4,
+    title: "BattleBeds",
+    date: "Jun 2022 - Aug 2022",
+    description:
+      "A website which was developed using PHP and Wordpress helps our life a lot with pets",
+    image: `${k9battlebedsLogo}`,
+    tags: ["Wordpress", "Php", "Firebase", "AWS"],
+    category: "WordPress",
+    webapp: "https://k9battlebeds.com.au",
   },
   {
     id: 9,
@@ -481,16 +504,9 @@ export const projects = [
     date: "Nov 2022 -  Feb 2023",
     description:
       "WareTracker is a web site specialized for CMS including WordPress themes ",
-    image:
-    `${wareTrackerLogo}`,
-    tags: [
-      "Docker",
-      "CI/CD",
-      "WordPress",
-      "Avada",
-      "AWS"
-    ],
-    category: "web app",
+    image: `${wareTrackerLogo}`,
+    tags: ["Docker", "CI/CD", "WordPress", "Avada", "AWS"],
+    category: "WordPress",
     webapp: "https://waretracker.com/",
   },
   {
@@ -499,12 +515,10 @@ export const projects = [
     date: "Apr 2023 - May 2023",
     description:
       "This is a website that provides really comfortable way of contacting and getting medical help and assistance.",
-    image:
-    `${GetlabsImg}`,
+    image: `${GetlabsImg}`,
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
     webapp: "https://getlabs.com/",
-    
   },
   {
     id: 1,
@@ -512,19 +526,18 @@ export const projects = [
     date: "Oct 2022 - Jan 2023",
     description:
       "Designed and developed a large ebike site in Canada using boosting technologies and stacks.",
-    image:
-    `${ScooterettiImg}`,
+    image: `${ScooterettiImg}`,
     tags: [
-      "Shopify", 
-      "React", 
-      "Bootstrap", 
-      "GA4", 
-      "Meta Pixel", 
-      "Paypal", 
-      "Apple Pay", 
-      "Shop Pay", 
-      "Sezzle", 
-      "Google Map"
+      "Shopify",
+      "React",
+      "Bootstrap",
+      "GA4",
+      "Meta Pixel",
+      "Paypal",
+      "Apple Pay",
+      "Shop Pay",
+      "Sezzle",
+      "Google Map",
     ],
     category: "web app",
     webapp: "https://scooteretti.com/",
@@ -535,11 +548,10 @@ export const projects = [
     date: "Jan 2023 - Mar 2023",
     description:
       "Just Tee Times- one of the successful golfer company saves your time and money.",
-    image:
-    `${JustteetimesImg}`,
+    image: `${JustteetimesImg}`,
     tags: ["Python", "Django", "React", "Pure Chat", "HSTS", "Google Maps"],
     category: "Web app",
-    webapp: "https://justteetimes.com/",    
+    webapp: "https://justteetimes.com/",
   },
   {
     id: 3,
@@ -547,9 +559,14 @@ export const projects = [
     date: "Dec 2021 - Apr 2022",
     description:
       "Developed Wijndoekje - ecommerce site which gathers a lot of interest among clients.",
-    image:
-    `${WijndoekjeImg}`,
-    tags: ["Angular", "MVVM", "NodeJs", "Google Drive Cloud API", "Google Maps"],
+    image: `${WijndoekjeImg}`,
+    tags: [
+      "Angular",
+      "MVVM",
+      "NodeJs",
+      "Google Drive Cloud API",
+      "Google Maps",
+    ],
     category: "web app",
     webapp: "https://www.wijndoekje.nl/",
   },
@@ -565,20 +582,27 @@ export const projects = [
     category: "android app",
     webapp: "https://github.com/rishavchanda/Job-finder-App",
   },
+  // {
+  //   id: 4,
+  //   title: "Tableau",
+  //   date: "Jul 2021 - Aug 2021",
+  //   description:
+  //     "Developed a website where you can learn about the machine learning. It gains more and more attract from the eager learners.",
+  //   image: `${TableauImg}`,
+  //   tags: [
+  //     "Python",
+  //     "Keras",
+  //     "TensorFlow",
+  //     "Pickle",
+  //     "Drupal",
+  //     "PHP",
+  //     "Maria DB",
+  //     "Pantheon",
+  //   ],
+  //   category: "machine learning",
+  //   webapp: "https://www.tableau.com/",
+  // },
   {
-    id: 4,
-    title: "Tableau",
-    date: "Jul 2021 - Aug 2021",
-    description:
-      "Developed a website where you can learn about the machine learning. It gains more and more attract from the eager learners.",
-    image:
-    `${TableauImg}`,
-    tags: ["Python", "Keras", "TensorFlow", "Pickle", "Drupal", "PHP","Maria DB","Pantheon"],
-    category: "machine learning",
-    webapp: "https://www.tableau.com/",
-  },
-  {
-    
     id: 6,
     title: "Breaking Bad",
     date: "Jun 2021",
@@ -602,17 +626,16 @@ export const projects = [
     category: "android app",
     webapp: "https://github.com/rishavchanda/Quiz-Earn",
   },
-  {
-    id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021 - Mar 2021",
-    description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image:
-      "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  },
+  // {
+  //   id: 8,
+  //   title: "Face Recognition",
+  //   date: "Jan 2021 - Mar 2021",
+  //   description:
+  //     "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
+  //   image:
+  //     "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
+  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+  //   category: "machine learning",
+  //   webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+  // },
 ];
-
